@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./TodoApp.css";
 
 const TodoApp = () => {
   const [itemsList, setItemsList] = useState([]);
@@ -19,8 +18,8 @@ const TodoApp = () => {
   };
 
   return (
-    <div className="app">
-      <div className="header">
+    <div className="">
+      <div className="">
         <h2>Product List</h2>
       </div>
       <TodoForm addTodo={addTodo} />
